@@ -29,7 +29,7 @@ class LeaderboardScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: mq.height * 0.32,
+            height: mq.height * 0.33,
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Stack(
               alignment: Alignment.bottomCenter,
@@ -118,7 +118,7 @@ class LeaderboardScreen extends StatelessWidget {
                 return Column(
                   children: [
                     Container(
-                      height: 47,
+                      height: 48,
                       margin: const EdgeInsets.only(bottom: 10),
                       child: Row(
                         children: [
@@ -154,7 +154,7 @@ class LeaderboardScreen extends StatelessWidget {
                               backgroundImage: AssetImage(user.avatar),
                             ),
                           ),
-                          const SizedBox(width: 4),
+                          // const SizedBox(width: 4),
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -163,17 +163,18 @@ class LeaderboardScreen extends StatelessWidget {
                                   user.name,
                                   style: const TextStyle(
                                     color: Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w500,
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
+                                SizedBox(height: 2,),
                                 Row(
                                   children: [
                                     Text(
                                       '${user.points}',
                                       style: const TextStyle(
                                         color: Colors.white,
-                                        fontSize: 20,
+                                        fontSize: 18,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
