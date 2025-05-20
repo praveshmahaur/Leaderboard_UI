@@ -1,16 +1,43 @@
-# leaderboard
+# Leaderboard
 
-A new Flutter project.
+A Flutter application showcasing a leaderboard UI for tracking user points.
+
+## Overview
+
+This project implements a leaderboard screen using Flutter, featuring top players and a list of users with their respective points. The UI is designed with a dark theme, making use of vibrant colors and smooth animations.
+
+## Screenshots
+
+![Leaderboard Screen](./screenshots/leaderboard_screen.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `flutter pub get` to install dependencies.
+4. Connect your device or emulator.
+5. Run `flutter run` to launch the application.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- AppBar with a dynamic title and navigation options.
+- Top player section highlighting top performers.
+- Scrollable list of users with their avatars, points, and ranking indicators.
+- Bottom navigation bar for easy navigation across screens.
+
+## Dependencies
+
+This project relies on Flutter and various plugins. Check `pubspec.yaml` for more details.
+
+## Contributions
+
+Contributions are welcome! Feel free to fork and submit pull requests.
+
+## Credits
+
+Developed by [Your Name].
+
+![Your Photo](./your_photo.jpg)
+
