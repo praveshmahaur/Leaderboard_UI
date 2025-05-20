@@ -7,8 +7,7 @@ A Flutter application showcasing a leaderboard UI for tracking user points.
 This project implements a leaderboard screen using Flutter, featuring top players and a list of users with their respective points. The UI is designed with a dark theme, making use of vibrant colors and smooth animations.
 
 ## Screenshots
-
-![Leaderboard Screen](./screenshots/leaderboard_screen.png)
+![Uploading Screenshot_2025-05-20-20-46-48-340_com.example.leaderboard.jpg…]()
 
 ## Getting Started
 
