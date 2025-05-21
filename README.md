@@ -16,8 +16,5 @@ This project implements a leaderboard screen using Flutter, featuring top player
 - Scrollable list of users with their avatars, points, and ranking indicators.
 - Bottom navigation bar for easy navigation across screens.
 
-## Dependencies
-
-This project relies on Flutter and various plugins. Check `pubspec.yaml` for more details.
 
 
