@@ -31,13 +31,4 @@ To get started with this project, follow these steps:
 
 This project relies on Flutter and various plugins. Check `pubspec.yaml` for more details.
 
-## Contributions
-
-Contributions are welcome! Feel free to fork and submit pull requests.
-
-## Credits
-
-Developed by [Your Name].
-
-![Your Photo](./your_photo.jpg)
 
